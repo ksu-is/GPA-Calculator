@@ -3,8 +3,7 @@
 - [x] edit readme.md document for formatting/clarification @ajone456
 - [ ] Create initial question that asks whether or not the user would like to add current grades
     - [ ] Choosing "yes" asks to enter in current GPA and current earned credit hours
-    - [ ] Choosing no takes the user to the menu.
-- [ ] Create initial menu of options
+    - [ ] Choosing no takes the user to entering semester grades
 - [ ] Create semester grades program and ensure that it runs
     - [ ] Credit hours per class only allows digits
     - [ ] Grade asks for letters and converts that value into a GPA value of 0, 1, 2, 3, or 4
