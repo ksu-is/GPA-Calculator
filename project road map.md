@@ -10,3 +10,7 @@
     - [ ] Grade asks for letters and converts that value into a GPA value of 0, 1, 2, 3, or 4
     - [ ] Lets students enter as multiple classes
     - [ ] Errors of user entry generate as needed
+- [ ] Use [excel output example](https://datatofish.com/export-dataframe-to-excel/) to creat excel export
+    - [ ] Excel file only exports if user chooses to export it
+    - [ ] Excel file only exports semester grades if current grades were not entered
+    - [ ] Excel file exports both semester and current grades if current grades were entered
