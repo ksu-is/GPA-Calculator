@@ -1,0 +1,6 @@
+- [x] create repository for project @hmacdon1
+- [x] add initial readme.md document @hmacdon1
+- [x] edit readme.md document for formatting/clarification @ajone456
+- [x] Create initial question that asks whether or not the user would like to add current grades
+  - [ ] Choosing "yes" asks to enter in current GPA and current earned credit hours
+  - [ ] Choosing no takes the user to the menu.
