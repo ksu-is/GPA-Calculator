@@ -1,8 +1,8 @@
 - [x] create repository for project @hmacdon1
 - [x] add initial readme.md document @hmacdon1
 - [x] edit readme.md document for formatting/clarification @ajone456
-- [ ] Create initial question that asks whether or not the user would like to add current grades
-    - [ ] Choosing "yes" asks to enter in current GPA and current earned credit hours
+- [x] Create initial question that asks whether or not the user would like to add current grades - @hmacdon1
+    - [x] Choosing "yes" asks to enter in current GPA and current earned credit hours - @hmacdon1
     - [ ] Choosing no takes the user to entering semester grades
 - [ ] Create semester grades program and ensure that it runs
     - [ ] Credit hours per class only allows digits
