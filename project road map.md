@@ -3,13 +3,13 @@
 - [x] edit readme.md document for formatting/clarification @ajone456
 - [x] Create initial question that asks whether or not the user would like to add current grades - @hmacdon1
     - [x] Choosing "yes" asks to enter in current GPA and current earned credit hours - @hmacdon1
-    - [ ] Choosing no takes the user to entering semester grades
+    - [x] Choosing no takes the user to entering semester grades- ajone456
 - [ ] Create semester grades program and ensure that it runs
     - [ ] Credit hours per class only allows digits
     - [ ] Grade asks for letters and converts that value into a GPA value of 0, 1, 2, 3, or 4
     - [ ] Lets students enter as multiple classes
     - [ ] Errors of user entry generate as needed
-- [ ] Use [excel output example](https://datatofish.com/export-dataframe-to-excel/) to creat excel export
+- [ ] Use [excel output example](https://datatofish.com/export-dataframe-to-excel/) to create excel export
     - [ ] Excel file only exports if user chooses to export it
     - [ ] Excel file only exports semester grades if current grades were not entered
     - [ ] Excel file exports both semester and current grades if current grades were entered
