@@ -4,13 +4,44 @@ current_hours = 0.00
 current_gpa = 0.00
 
 #Initialize lists for program of inputting the semester hours and grades
+semester_class = []
 semester_hours = []
-semester_gpa = []
+semester_grades = []
 
 #Semester grades program that loops while user enters in their current semester classes and expected grades until they're finished.
-#def SemesterGrades():
-    #while True:
-        #break
+def SemesterGrades(semester_class,semester_hours,semester_grades):
+    while True:
+        class_input = input("Enter the name of your class: ")
+        semester_class.append(class_input)
+        hours_input = input("Enter the number of hours for the class: ")
+        semester_hours.append(hours_input)
+        grade_input = input("Enter your expected letter grade for the class (A, B, C, D, or F): ")
+        while grade_input:
+            if grade_input.upper() == "A":
+                semester_grades.append("4")
+                break
+            elif grade_input.upper() == "B":
+                semester_grades.append("3")
+                break
+            elif grade_input.upper() == "C":
+                semester_grades.append("2")
+                break
+            elif grade_input.upper() == "D":
+                semester_grades.append("1")
+                break
+            elif grade_input.upper() == "F":
+                semester_grades.append("0")
+                break
+            else:
+                print("Invalid Entry")
+                grade_input = input("Enter your expected letter grade for the class (A, B, C, D, or F): ")
+        add_classes = input("Would you like to add another class? ")
+        if add_classes.lower().startswith("n") == True:
+            break
+        else:
+            pass
+
+
 
 #Greet the user and ask if they would like to add their current earned GPA and total credit hours
 print("Welcome to the GPA Calculator program!")
@@ -44,7 +75,7 @@ while initial_option:
 while current_hours > 0:
     print("Current hours:",current_hours)
     print("Current GPA:", current_gpa)
-#Verify they input the numbers correctly, if yes then break otherwise they can re-enter the names
+#Verify they input the numbers correctly, if yes then break otherwise they can re-enter the current hours and GPA
     current_validation = input("Were the current numbers entered correctly? (Yes/No)")
     while current_validation:
         if current_validation.isalpha() == False:
@@ -72,3 +103,6 @@ while current_hours > 0:
             print("Current hours:",current_hours)
             print("Current GPA:", current_gpa)
             current_validation = input("Were the current numbers entered correctly? (Yes/No)")
+
+print("Enter your current classes, hours and expected grades.")
+SemesterGrades(semester_class,semester_hours,semester_grades)
