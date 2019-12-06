@@ -228,7 +228,7 @@ if excel_export_decision.lower().startswith('y') == True:
     'Overall Hours': [total_hours],
     'Overall GPA': [total_gpa]}
     df= pd.DataFrame(raw_data,columns= ['Current Hours','Current GPA','Class Name','Class Hours','Class GPA','Overall Hours','Overall GPA'])
-    export_excel = df.to_excel (r'C:\Users\harol\Desktop\export_dataframe.xlsx', index = None, header=True) #Don't forget to add '.xlsx' at the end of the path
+    export_excel = df.to_excel (r'C:\Users\harol\Desktop\export_dataframe.xlsx', index = None, header=True) #Don't forget to add '.xlsx' at the end of the path and change it to a local path on your machine
     print(df)
     print("Thank you for using the GPA Calculator!")
 else:
