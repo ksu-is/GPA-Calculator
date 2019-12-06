@@ -16,7 +16,7 @@ def SemesterGrades(semester_class,semester_hours,semester_grades):
     while True:
         class_input = input("Enter the name of your class: ")
         while class_input:
-            if class_input.isalpha() == False:
+            if class_input.isalnum() == False:
                 print("Invalid Entry.")
                 class_input = input("Enter the name of your class: ")
             else:
