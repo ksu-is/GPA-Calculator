@@ -105,3 +105,9 @@ for num in range(0,len(semester_hours)):
 total_gpa = total_gpa / total_hours
 print("Total hours:",total_hours)
 print("Total Expected GPA:",total_gpa)
+
+import pandas 
+raw_data = {"Hours":[4,3,2,1,0]
+"Grades":["A","B","C","D","F"]}
+df= pd.DataFrame(raw_data,columns=_["Hours","Grades","GPA"])
+print(df)
