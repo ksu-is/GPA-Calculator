@@ -1,4 +1,4 @@
-#using the pip install command, install pandas into pyhton using the 'pip install pandas' command in the terminal
+#using the pip install command, install pandas into python using the 'pip install pandas' command in the terminal
 #Then we import pandas at the beginning
 import pandas as pd
 #Initialize both the current hours and GPA earned for the student as number variables. 
